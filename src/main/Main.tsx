@@ -2,7 +2,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div>Mainapdpapdf</div>
+    <div>메인입니다ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ</div>
   )
 }
 
