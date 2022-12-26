@@ -1,11 +1,32 @@
 @charset "UTF-8";
 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+    margin: 0;
+    padding: 0; 
+}
+
 * {
-    height: 100vh; /* 혹시나 Custom Property 지원 안하는 브라우저를 위한 복귀점(Fallback) */
-    height: calc(var(--vh, 1vh) * 100);
+    // height: 100vh; /* 혹시나 Custom Property 지원 안하는 브라우저를 위한 복귀점(Fallback) */
+    // height: calc(var(--vh, 1vh) * 100);
+    height: 100%;
 }
 
 .reserve-main{
     text-align: center;
-    line-height: 50;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
