@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+* {
+    height: 100vh; /* 혹시나 Custom Property 지원 안하는 브라우저를 위한 복귀점(Fallback) */
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+.reserve-main{
+    text-align: center;
+    line-height: 50;
+}
